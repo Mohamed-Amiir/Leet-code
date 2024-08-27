@@ -22,6 +22,9 @@ public:
 				bestStart = prices[i];
 				dp[prices[i]] = res;
 			}
+            else if(prices[j]-prices[i] < 0){
+                   i = j;
+            }
 			
 		}
 		if (dp[prices[i]] == 0)
