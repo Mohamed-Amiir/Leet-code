@@ -1,12 +1,12 @@
 class Solution {
 public:
-int maxProfit(vector<int>&prices) {
+   int maxProfit(vector<int>&prices) {
 	map<int, int> dp;
 	int res = 0;
 	int bestStart = -1;
 	for (int i = 0; i < prices.size() - 1; i++)
 	{
-		if (dp[prices[i]] != 0)
+		if (dp[prices[i]] != 0 || prices[i+1] < prices[i])
 		{
 			continue;
 		}
@@ -22,6 +22,7 @@ int maxProfit(vector<int>&prices) {
 				bestStart = prices[i];
 				dp[prices[i]] = res;
 			}
+			
 		}
 		if (dp[prices[i]] == 0)
 		{
@@ -30,6 +31,7 @@ int maxProfit(vector<int>&prices) {
 	}
 	return res;
 }
+
 
 
 
