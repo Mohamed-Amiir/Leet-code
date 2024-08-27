@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
@@ -93,4 +94,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0013-roman-to-integer) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
