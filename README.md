@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
+| [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0013-roman-to-integer) |
+| [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -113,17 +115,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 ## Union Find
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 ## Matrix
 |  |
 | ------- |
@@ -133,4 +138,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0133-clone-graph) |
+| [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
+## Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 <!---LeetCode Topics End-->
