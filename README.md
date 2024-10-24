@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0130-surrounded-regions) |
+| [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0215-kth-largest-element-in-an-array) |
@@ -28,12 +29,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
@@ -64,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0013-roman-to-integer) |
 | [0133-clone-graph](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0133-clone-graph) |
+| [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
@@ -72,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
 ## Database
 |  |
