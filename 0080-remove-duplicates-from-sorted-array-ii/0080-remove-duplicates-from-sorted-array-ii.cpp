@@ -1,8 +1,5 @@
 class Solution {
 public:
-void swap(int i, int j, vector<int>& nums) {
-	nums[i] = nums[j];
-}
 
 int removeDuplicates(vector<int>& nums) {
 	int dCounter = 0;
@@ -21,7 +18,7 @@ int removeDuplicates(vector<int>& nums) {
 		
 		if (dCounter != 0 && nCounter < 3)
 		{
-			swap(i - dCounter, i, nums);
+            nums[i - dCounter] = nums[i];
 		}
 	}
 	return nums.size() - dCounter;
