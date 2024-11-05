@@ -1,7 +1,9 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
-        if(s == "foo" & t == "b0r")
+        set<char> ss (s.begin(),s.end());
+        set<char> tt (t.begin(),t.end());
+        if(ss.size() != tt.size())
            return false;
         map<char,char> chars;
         map<char,bool> visited;
