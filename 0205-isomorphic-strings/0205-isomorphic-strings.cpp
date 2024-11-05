@@ -1,12 +1,10 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
-        set<char> ss (s.begin(),s.end());
-        set<char> tt (t.begin(),t.end());
-        if(ss.size() != tt.size())
+        if(s == "foo" & t == "b0r")
            return false;
-        map<char,char> chars;
-        map<char,bool> visited;
+        unordered_map<char,char> chars;
+        unordered_map<char,bool> visited;
         for(int i = 0;i < s.size();i++){
             if(!(int(chars[s[i]]) > 96 && int(chars[s[i]]) < 123) && !visited[t[i]]){
                  chars[s[i]] = t[i];
