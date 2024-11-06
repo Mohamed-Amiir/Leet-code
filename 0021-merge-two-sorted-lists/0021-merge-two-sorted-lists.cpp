@@ -11,8 +11,7 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-
-
+// HELLO WORLD
 	ListNode head(0);
 	ListNode* result = &head;
 
