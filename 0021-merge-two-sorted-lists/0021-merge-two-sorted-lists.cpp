@@ -11,10 +11,7 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-	if (list1 == nullptr)
-		return list2;
-	else if (list2 == nullptr)
-		return list1;
+
 
 	ListNode head(0);
 	ListNode* result = &head;
