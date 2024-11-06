@@ -17,26 +17,24 @@ public:
 	ListNode* result = &head;
 
 
-	auto itr1 = list1, itr2 = list2;
-
-	while (itr1 != nullptr && itr2 != nullptr) {
-		if (itr1->val > itr2->val) {
-			result->next = itr2;
-			itr2 = itr2->next;
+	while (list1 != nullptr && list2 != nullptr) {
+		if (list1->val > list2->val) {
+			result->next = list2;
+			list2 = list2->next;
 		}
 		else {
-			result->next = itr1;
-			itr1 = itr1->next;
+			result->next = list1;
+			list1 = list1->next;
 		}
 		result = result->next;
 	}
 
-	if (itr1 == nullptr)
+	if (list1 == nullptr)
 	{
-		result->next = itr2;
+		result->next = list2;
 	}
 	else {
-		result->next = itr1;
+		result->next = list1;
 	}
 
 	return head.next;
