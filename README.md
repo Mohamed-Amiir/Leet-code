@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0021-merge-two-sorted-lists) |
 | [0148-sort-list](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0148-sort-list) |
 ## Two Pointers
 |  |
@@ -165,4 +166,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0207-course-schedule) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
