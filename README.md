@@ -113,11 +113,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
 ## String
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0013-roman-to-integer) |
+| [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0205-isomorphic-strings) |
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
@@ -170,4 +172,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0021-merge-two-sorted-lists) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
