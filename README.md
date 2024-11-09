@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0130-surrounded-regions) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0125-valid-palindrome) |
 | [0148-sort-list](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0148-sort-list) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
 ## Merge Sort
 |  |
@@ -180,4 +182,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
