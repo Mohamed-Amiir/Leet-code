@@ -3,8 +3,8 @@ public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
         if(nums.size() == 1)
            return false;
-        map<int,pair<int,int>> n;
-        map<int,bool> visited;
+        unordered_map<int,pair<int,int>> n;
+        unordered_map<int,bool> visited;
         for(int i = 0; i < nums.size();i++){
            if(visited[nums[i]]){
               n[nums[i]].second = i; 
