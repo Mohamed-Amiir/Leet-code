@@ -3,13 +3,21 @@ public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
         if(nums.size() == 1)
            return false;
+        map<int,pair<int,int>> n;
+        map<int,bool> visited;
         for(int i = 0; i < nums.size();i++){
-            int counter = k,j = i + 1;
-            while(j < nums.size() && counter-- ){
-                if(nums[i] == nums[j])
-                   return true;
-                j++;
-            }
+           if(visited[nums[i]]){
+              n[nums[i]].second = i; 
+              if(n[nums[i]].second-n[nums[i]].first <= k){
+                return true;
+              }
+              n[nums[i]].first = i; 
+              visited[nums[i]] = true;
+           }
+           else{
+             n[nums[i]].first = i; 
+             visited[nums[i]] = true;
+           }
         }
         return false;
     }
