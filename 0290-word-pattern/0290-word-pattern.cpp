@@ -6,10 +6,10 @@
 
 class Solution {
 public:
-    std::vector<std::string> splitWords(const std::string &str) {
-        std::vector<std::string> words;
-        std::istringstream stream(str);
-        std::string word;
+    vector<string> splitWords(const string &str) {
+        vector<string> words;
+        istringstream stream(str);
+        string word;
         
         while (stream >> word) {
             words.push_back(word);
@@ -19,8 +19,8 @@ public:
     }
     
     bool wordPattern(std::string pattern, std::string s) {
-        std::map<char, std::string> mp;
-        std::map<std::string, char> reverseMap;
+        map<char, string> mp;
+        map<std::string, char> reverseMap;
         std::vector<std::string> words = splitWords(s);
         
         // Check if pattern length matches words length
