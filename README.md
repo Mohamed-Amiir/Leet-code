@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0219-contains-duplicate-ii) |
+| [0290-word-pattern](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0205-isomorphic-strings) |
+| [0290-word-pattern](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0290-word-pattern) |
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 ## Dynamic Programming
 |  |
