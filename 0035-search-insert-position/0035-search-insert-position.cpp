@@ -7,17 +7,17 @@ int searchInsert(vector<int>& nums, int target) {
         mid = start + (end - start) / 2;
 
         if (nums[mid] == target) {
-            return mid; // Found the target
+            return mid; 
         }
         else if (nums[mid] < target) {
-            start = mid + 1; // Search in the right half
+            start = mid + 1; 
         }
         else {
-            end = mid - 1; // Search in the left half
+            end = mid - 1; 
         }
     }
     
-    return start; // Position where target would be inserted
+    return start; 
 }
 
 
