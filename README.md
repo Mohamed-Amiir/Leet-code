@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0011-container-with-most-water) |
 | [0035-search-insert-position](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0066-plus-one) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0011-container-with-most-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0125-valid-palindrome) |
 | [0148-sort-list](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0148-sort-list) |
@@ -212,4 +214,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0076-minimum-window-substring) |
 | [0219-contains-duplicate-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0219-contains-duplicate-ii) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
