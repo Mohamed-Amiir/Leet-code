@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0015-3sum) |
 | [0035-search-insert-position](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0066-plus-one) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0049-group-anagrams) |
 | [0148-sort-list](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0015-3sum) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0125-valid-palindrome) |
 | [0148-sort-list](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0148-sort-list) |
