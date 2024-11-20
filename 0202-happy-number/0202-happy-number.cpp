@@ -15,16 +15,16 @@ public:
     }
 
     bool isHappy(int n) {
-        unordered_set<int> visited; // To track numbers we've seen
-        while (n != 1 && !visited.count(n)) {
-            visited.insert(n); // Mark the number as visited
+        unordered_map<int,bool> visited;  
+        while (n != 1 && !visited[n]) {
+            visited[n] = 1; 
             vector<int> digits = getDigits(n);
-            int result = 0; // Initialize result
+            int result = 0; 
             for (int d : digits) {
                 result += d * d;
             }
-            n = result; // Update n to the sum of squares of digits
+            n = result;  
         }
-        return n == 1; // If we exit the loop and n is 1, it's a happy number
+        return n == 1;  
     }
 };
