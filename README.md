@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0202-happy-number) |
 ## Merge Sort
 |  |
 | ------- |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0133-clone-graph) |
 | [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0219-contains-duplicate-ii) |
 | [0290-word-pattern](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0290-word-pattern) |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0202-happy-number) |
 ## String
 |  |
 | ------- |
