@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0015-3sum) |
 | [0035-search-insert-position](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0035-search-insert-position) |
+| [0048-rotate-image](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0066-plus-one) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
@@ -185,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0048-rotate-image) |
 | [0130-surrounded-regions](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
 ## Graph
