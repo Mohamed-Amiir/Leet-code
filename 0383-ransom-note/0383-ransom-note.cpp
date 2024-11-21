@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
+        if(magazine.size() < ransomNote.size())return 0;
         unordered_map<char,int> mCount;
         for(char c : magazine){
             mCount[c]++;
