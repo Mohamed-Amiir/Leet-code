@@ -1,35 +1,56 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        stack<std::string> myPath;
-    string current;
-    for (char c : path) {
-        if (c == '/') {
-            if (current == "..") {
-                if (!myPath.empty()) myPath.pop();
-            } else if (!current.empty() && current != ".") {
-                myPath.push(current);
+        stack<string> seq;
+        vector<string> names;
+        string word = "";
+        for(char c : path){
+            if(c == '/'){
+                if(word == ""||word == "."){
+                    word = "";
+                    continue;
+                }
+                if(word == ".."&&!seq.empty()){
+                    seq.pop();
+                }
+                else{
+                    seq.push(word);
+                }
+               word = "";
             }
-            current.clear();
-        } else {
-            current += c;
+            else{
+                word.push_back(c);
+            }
         }
-    }
 
-    // Handle the last segment
-    if (current == "..") {
-        if (!myPath.empty()) myPath.pop();
-    } else if (!current.empty() && current != ".") {
-        myPath.push(current);
-    }
+        if(word == ".."&&!seq.empty()){
+                    seq.pop();
+                }
+        if(word != ".." && path.back() != '/'&& word != "."){
+           seq.push(word);
 
-    // Construct the simplified path
-    string answer;
-    while (!myPath.empty()) {
-        answer = "/" + myPath.top() + answer;
-        myPath.pop();
-    }
+        }
 
-    return answer.empty() ? "/" : answer;
+        while(!seq.empty()){
+            if(seq.top()=="."||seq.top()==".."){
+            seq.pop();
+            continue;
+            }
+            names.push_back(seq.top());
+            seq.pop();
+            
+           
+        }
+        reverse(names.begin(),names.end());
+        string result = "";
+        for(string n : names){
+            result.push_back('/');
+            result+=n;
+        }
+        if(result == "")
+           return "/";
+        else
+           return result;
+    
     }
 };
