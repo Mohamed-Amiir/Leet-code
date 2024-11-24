@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
+| [0071-simplify-path](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0205-isomorphic-strings) |
@@ -236,4 +237,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0011-container-with-most-water) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+## Stack
+|  |
+| ------- |
+| [0071-simplify-path](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0071-simplify-path) |
 <!---LeetCode Topics End-->
