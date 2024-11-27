@@ -8,9 +8,8 @@ public:
                 if(rowCounter[board[i][j]] == 1 || colCounter[board[j][i]] == 1 ||cubes[i/3][j/3][board[i][j]] == 1)
                     return false;
                 else{
-                    if(board[i][j] != '.') rowCounter[board[i][j]]++;
+                    if(board[i][j] != '.') {rowCounter[board[i][j]]++;cubes[i/3][j/3][board[i][j]]++;}
                     if(board[j][i] != '.') colCounter[board[j][i]]++;
-                    if(board[i][j] != '.') cubes[i/3][j/3][board[i][j]]++;
                }
             }
         }
