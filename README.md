@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0219-contains-duplicate-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0228-summary-ranges) |
@@ -234,10 +235,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0035-search-insert-position) |
 | [0162-find-peak-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0209-minimum-size-subarray-sum) |
 ## Sliding Window
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0076-minimum-window-substring) |
+| [0209-minimum-size-subarray-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0219-contains-duplicate-ii) |
 ## Greedy
 |  |
@@ -253,4 +256,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0155-min-stack) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
