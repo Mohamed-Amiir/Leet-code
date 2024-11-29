@@ -11,15 +11,9 @@ public:
             c++;
             right++;
             if(sum >= target){
-                cout << "Right : " << right << endl;
                 result.push_back(c);
 
-                // left = right;
-                // c = 0;
-                // sum  = 0;
-
                 while(sum >= target){
-                   cout << "Left : " << left << endl; 
                    sum -= nums[left];
                    left++;
                    result.push_back(c);
@@ -30,6 +24,6 @@ public:
         
 
         if(result.empty())return 0;
-        return *min_element(result.begin(),result.end());;
+        return *min_element(result.begin(),result.end());
     }
 };
