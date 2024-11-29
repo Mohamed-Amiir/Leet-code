@@ -3,7 +3,7 @@ public:
     int minSubArrayLen(int target, vector<int>& nums) {
 
         int left = 0, right = 0;
-        vector<int> result;
+         int  result = 1e9;
         int sum = 0,c = 0;
         
         while(left < nums.size()&&right <  nums.size()){
@@ -11,19 +11,18 @@ public:
             c++;
             right++;
             if(sum >= target){
-                result.push_back(c);
-
+                result = min(c,result);
                 while(sum >= target){
                    sum -= nums[left];
                    left++;
-                   result.push_back(c);
+                   result = min(c,result);
+
                    c--;
                 }
             }
         }
         
-
-        if(result.empty())return 0;
-        return *min_element(result.begin(),result.end());
+        if(result == 1e9)return 0;
+        return result;
     }
 };
