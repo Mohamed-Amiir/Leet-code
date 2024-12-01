@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0202-happy-number) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Merge Sort
 |  |
 | ------- |
@@ -111,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0383-ransom-note) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -239,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0209-minimum-size-subarray-sum) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Sliding Window
 |  |
 | ------- |
