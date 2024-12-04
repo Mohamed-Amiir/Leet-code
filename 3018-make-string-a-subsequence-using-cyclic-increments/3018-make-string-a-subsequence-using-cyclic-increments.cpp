@@ -10,14 +10,11 @@ public:
             else temp++;
 
             if(str1[i] == str2[j] || temp == int(str2[j]) ){
-                // c++;
                 i++;
                 j++;
-                // if(c == n) return true;
             }
             else{
                 i++;
-                // c = 0;
             }
           }
 
