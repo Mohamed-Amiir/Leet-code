@@ -28,9 +28,6 @@ public:
         // mid--;
         while(start <= end){
             int mid2 = (end + start)/2 ;
-            cout << "start : " << start <<endl;
-            cout << "end : " << end <<endl;
-            cout << "mid2 : " <<mid2<<endl;
             if(matrix[mid][mid2] == target) return true;
 
             if(matrix[mid][mid2] > target) end = mid2-1;
