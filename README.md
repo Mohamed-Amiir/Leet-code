@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2164-two-best-non-overlapping-events) |
 | [2232-adding-spaces-to-a-string](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2232-adding-spaces-to-a-string) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3427-special-array-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3427-special-array-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3427-special-array-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3427-special-array-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0209-minimum-size-subarray-sum) |
+| [3427-special-array-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3427-special-array-ii) |
 ## String Matching
 |  |
 | ------- |
