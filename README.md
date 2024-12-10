@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0383-ransom-note) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0383-ransom-note) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Database
 |  |
 | ------- |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -286,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3427-special-array-ii) |
 ## Sliding Window
 |  |
@@ -294,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0219-contains-duplicate-ii) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Greedy
 |  |
 | ------- |
