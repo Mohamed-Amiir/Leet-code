@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0049-group-anagrams) |
+| [0054-spiral-matrix](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0066-plus-one) |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0067-add-binary) |
 | [2232-adding-spaces-to-a-string](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2232-adding-spaces-to-a-string) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2692-take-gifts-from-the-richest-pile) |
