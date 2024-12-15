@@ -13,15 +13,14 @@ public:
             visited[i][j] = true;
             c++;
 
-            if (r) {
+            if (r) 
                 temp2++;
-            } else if (l) {
+            else if (l)
                 temp2--;
-            } else if (u) {
+            else if (u)
                 temp1--;
-            } else if (d) {
+            else if (d)
                 temp1++;
-            }
 
             if (temp1 < rows && temp2 < columns && temp1 >= 0 && temp2 >= 0 && !visited[temp1][temp2]) {
                 i = temp1;
@@ -42,15 +41,14 @@ public:
                     d = false;
                 }
 
-                if (r) {
+                if (r)
                     j++;
-                } else if (l) {
+                else if (l)
                     j--;
-                } else if (u) {
+                else if (u)
                     i--;
-                } else if (d) {
+                else if (d)
                     i++;
-                }
             }
         }
         return result;
