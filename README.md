@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1917-maximum-average-pass-ratio](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2164-two-best-non-overlapping-events) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0071-simplify-path](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0071-simplify-path) |
 | [0155-min-stack](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0155-min-stack) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Design
 |  |
 | ------- |
@@ -396,4 +398,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2868-continuous-subarrays](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2868-continuous-subarrays) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 <!---LeetCode Topics End-->
