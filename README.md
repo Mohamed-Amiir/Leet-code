@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0226-invert-binary-tree) |
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0226-invert-binary-tree) |
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Union Find
 |  |
 | ------- |
@@ -382,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -392,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Queue
 |  |
 | ------- |
