@@ -251,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3058-maximum-number-of-k-divisible-components](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3058-maximum-number-of-k-divisible-components) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -385,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3058-maximum-number-of-k-divisible-components](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3058-maximum-number-of-k-divisible-components) |
 ## Binary Tree
 |  |
 | ------- |
