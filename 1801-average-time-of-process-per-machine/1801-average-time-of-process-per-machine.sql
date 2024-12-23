@@ -1,6 +1,7 @@
 SELECT 
     machine_id, 
     ROUND(AVG(duration), 3) AS processing_time
+    -- hello world
 FROM (
     SELECT 
         t1.machine_id,
