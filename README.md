@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0494-target-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0494-target-sum) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0780-max-chunks-to-make-sorted) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0494-target-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0494-target-sum) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2164-two-best-non-overlapping-events) |
 ## Depth-First Search
 |  |
@@ -439,4 +441,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mohamed-Amiir/Leet-code/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
