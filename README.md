@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0494-target-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0494-target-sum) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0780-max-chunks-to-make-sorted) |
+| [1063-best-sightseeing-pair](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1063-best-sightseeing-pair) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0494-target-sum](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0494-target-sum) |
+| [1063-best-sightseeing-pair](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1063-best-sightseeing-pair) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2164-two-best-non-overlapping-events) |
 ## Depth-First Search
 |  |
