@@ -1,15 +1,16 @@
 class Solution {
 public:
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
-        unordered_map<char,bool> vol;
-        vol['a'] = 1;
-        vol['e'] = 1;
-        vol['o'] = 1;
-        vol['i'] = 1;
-        vol['u'] = 1;
+        unordered_set<char> vol;
+        vol.insert('a');
+        vol.insert('e');
+        vol.insert('o');
+        vol.insert('i');
+        vol.insert('u');
+        
         vector<int> prefix; int c = 0;
         for(auto x : words){
-            if(vol[x[0]] && vol[x[x.size()-1]])c++;
+            if(vol.count(x[0]) && vol.count(x.back()))c++;
             prefix.push_back(c);
         } 
         vector<int> result;
