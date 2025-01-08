@@ -1,14 +1,17 @@
 class Solution {
 public:
     bool isPrefixAndSuffix(string x,string y){
-        string temp = y,t = x; 
-        reverse(temp.begin(),temp.end());
-        reverse(t.begin(),t.end());
-        
         for(int k = 0;k < x.size();k++){
-            if(x[k] != y[k] || t[k] != temp[k]){
+            if(x[k] != y[k]){
                 return 0;
             }
+        }
+        int a = x.size()-1;
+        for(int k = y.size()-1;a >= 0;k--){
+            if(x[a] != y[k]){
+                return 0;
+            }
+            a--;
         }
         return 1;
     } 
