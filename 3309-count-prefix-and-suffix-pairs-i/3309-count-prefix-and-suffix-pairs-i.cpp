@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isPrefixAndSuffix(string x,string y){
+    bool isPrefixAndSuffix(string& x,string& y){
         for(int k = 0;k < x.size();k++){
             if(x[k] != y[k]){
                 return 0;
