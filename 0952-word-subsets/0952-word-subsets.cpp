@@ -9,17 +9,13 @@ public:
             }
             temp.clear();
         }
-        for(auto x : counter){
-           cout << x.first << " " << x.second<< endl; 
-           }
+
         vector<string> result;
         // bool flag = 1;
         for(auto s:words1){
             bool flag = 1;
-            cout << "S :" <<s<<endl;
            for(auto x : counter){
              if(x.second > count(s.begin(),s.end(),x.first)){
-                cout << "HELLO FROM BREAK , S = " << s << endl;
                 flag = 0;
                 break;
              }
