@@ -20,7 +20,7 @@ public:
                 break;
              }
            }
-           if(flag)result.push_back(s);
+           if(flag)result.emplace_back(s);
         }
         
         return result;
