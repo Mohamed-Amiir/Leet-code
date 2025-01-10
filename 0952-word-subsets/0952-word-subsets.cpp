@@ -1,10 +1,9 @@
 class Solution {
 public:
     vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
-        vector<int> counter(26,0);
-        // unordered_map<char,int>counter,temp;
+        int counter[26] = {};
         for(auto s: words2){
-            vector<int> temp(26,0);
+            int temp[26] = {};
             for(auto c : s){
                 temp[c-'a']++;
                 counter[c-'a'] = max(counter[c-'a'],temp[c-'a']);
