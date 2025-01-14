@@ -12,7 +12,7 @@ public:
         }
         for(int i = n-1;i >= 0; i--){
             int c = 0;
-            for(int j = 1; j <= 50; j++){
+            for(int j = 1; j <= n; j++){
                 if( (mapa[j] != -1 && mapb[j] != -1) && mapa[j] <= i && mapb[j] <= i)c++;
             }
             result[i] = c;
