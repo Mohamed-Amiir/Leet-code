@@ -10,7 +10,7 @@ public:
             mapa[A[i]] = i;
             mapb[B[i]] = i;
         }
-        for(int i = 0;i < n; i++){
+        for(int i = n-1;i >= 0; i--){
             int c = 0;
             for(int j = 1; j <= 50; j++){
                 if( (mapa[j] != -1 && mapb[j] != -1) && mapa[j] <= i && mapb[j] <= i)c++;
