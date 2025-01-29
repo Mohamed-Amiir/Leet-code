@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0684-redundant-connection](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0820-find-eventual-safe-states) |
 | [1396-count-servers-that-communicate](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1558-course-schedule-iv) |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0684-redundant-connection](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0820-find-eventual-safe-states) |
 | [1396-count-servers-that-communicate](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
+| [0684-redundant-connection](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0684-redundant-connection) |
 | [1396-count-servers-that-communicate](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1396-count-servers-that-communicate) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Mohamed-Amiir/Leet-code/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Matrix
@@ -365,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0399-evaluate-division) |
+| [0684-redundant-connection](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/Mohamed-Amiir/Leet-code/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/Mohamed-Amiir/Leet-code/tree/master/1558-course-schedule-iv) |
