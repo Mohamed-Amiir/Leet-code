@@ -1,26 +1,20 @@
 class Solution {
 public:
     int tupleSameProduct(vector<int>& nums) {
-        int result = 0;
-        unordered_map<long long, int> mult;
+        int result = 0, n = nums.size();
+        unordered_map<int, short> mult;
 
-        for (int i = 0; i < nums.size(); i++) {
-            for (int j = i+1; j < nums.size(); j++) {
-                if (i == j)
-                    continue;
-                long long x = nums[i] * nums[j];
-                mult[x]++;
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                mult[nums[i] * nums[j]]++;
             }
         }
 
         for (auto x : mult) {
-            // cout << x.first << " " << x.second << endl;
-            int temp = x.second ;
+            short temp = x.second;
 
             if (temp > 1) {
-                result += temp * (temp-1)/2;
-                // temp % 2 == 1 ? result += temp/2 : result += temp / 2;
-                // result += temp / 2;
+                result += temp * (temp - 1) / 2;
             }
         }
 
