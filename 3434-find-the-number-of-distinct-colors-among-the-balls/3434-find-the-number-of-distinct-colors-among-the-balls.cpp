@@ -10,11 +10,11 @@ public:
             int ball = queries[i][0], color = queries[i][1], curColor = colored[ball];
 
 
-            used[curColor]--;
-            if (used[curColor] == 0)c--;
+            // used[curColor]--;
+            if (--used[curColor] == 0)c--;
 
-            used[color]++;
-            if (used[color] == 1)c++;
+            // used[color]++;
+            if (++used[color] == 1)c++;
 
             colored[ball] = color;
 
