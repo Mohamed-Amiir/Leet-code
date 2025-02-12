@@ -39,13 +39,13 @@ public:
         if (!flag)
             return -1;
 
-        for (auto x : indOfSum) {
-            cout << "SUM " << x.first << endl;
-            for (auto a : x.second) {
-                cout << a << " ";
-            }
-            cout << endl;
-        }
+        // for (auto x : indOfSum) {
+        //     cout << "SUM " << x.first << endl;
+        //     for (auto a : x.second) {
+        //         cout << a << " ";
+        //     }
+        //     cout << endl;
+        // }
 
         int result = 0;
         for (auto x : indOfSum) {
