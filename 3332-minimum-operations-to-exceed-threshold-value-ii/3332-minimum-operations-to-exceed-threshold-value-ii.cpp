@@ -9,12 +9,10 @@ public:
         // }
         while( q.size()>=2 && q.top() < k){
             // printQ(q);
-            int n = 2,x= q.top(),y;
+            int x= q.top();
             q.pop();
-          if(!q.empty()){
-            y = q.top();
+            int y = q.top();
             q.pop();
-          }
           long long a = min(x,y),b = max(x,y);
            q.push(a*2 + b);
            c++;
