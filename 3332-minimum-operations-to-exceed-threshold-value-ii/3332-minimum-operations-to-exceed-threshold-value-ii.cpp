@@ -1,19 +1,12 @@
 class Solution {
 public:
-    void printQ(priority_queue<long long,vector<long long>,greater<long long>> q){
-       while(!q.empty()){
-            cout << q.top() << " ";
-            q.pop();
-        }
-        cout << endl;
-    }
     int minOperations(vector<int>& nums, int k) {
         int c = 0;
         // sort(nums.begin(),nums.end());
-        priority_queue<long long,vector<long long>,greater<long long>> q;
-        for(int x : nums){
-            q.push(x);
-        }
+        priority_queue<long long,vector<long long>,greater<long long>> q(nums.begin(),nums.end());
+        // for(int x : nums){
+        //     q.push(x);
+        // }
         while( q.size()>=2 && q.top() < k){
             // printQ(q);
             int n = 2,x= q.top(),y;
