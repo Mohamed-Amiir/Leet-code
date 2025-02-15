@@ -1,57 +1,59 @@
-
-
 class Solution {
 public:
-    void partitionDigits(vector<int>& digits, int index, vector<int>& current, vector<vector<int>>& result) {
-        if (index == digits.size()) {
-            result.push_back(current);
-            return;
-        }
-
-        int num = 0;
-        for (int i = index; i < digits.size(); ++i) {
-            num = num * 10 + digits[i];
-            current.push_back(num);
-            partitionDigits(digits, i + 1, current, result);
-            current.pop_back();
-        }
+void partitionDigits(vector<int>& digits, int index, vector<int>& current, vector<vector<int>>& result) {
+    if (index == digits.size()) {  // Base case: all digits are used
+        result.push_back(current);
+        return;
     }
 
-    vector<vector<int>> getAllPartitions(vector<int>& digits) {
-        vector<vector<int>> result;
-        vector<int> current;
-        partitionDigits(digits, 0, current, result);
-        return result;
+    int num = 0;  // Store the number as an integer
+    for (int i = index; i < digits.size(); ++i) {
+        num = num * 10 + digits[i];  // Form number using digits
+        
+        current.push_back(num);  // Add the number as a partition
+        partitionDigits(digits, i + 1, current, result);  // Recur for next parts
+        current.pop_back();  // Backtrack
     }
+}
+
+vector<vector<int>> getAllPartitions(vector<int>& digits) {
+    vector<vector<int>> result;
+    vector<int> current;
+    partitionDigits(digits, 0, current, result);
+    return result;
+}
 
     bool solve(int x) {
-        if (x == 1) return true;
-        long long y = (long long)x * x;
-        vector<int> digits;
+        if(x == 1)return true;
+        // cout << "NUMBER " << x <<endl; 
+        long long y = x * x;
+        vector<int> digits, p;
         while (y > 0) {
-            digits.push_back(y % 10);
-            y /= 10;
+            int temp = y % 10;
+            y = y / 10;
+            digits.push_back(temp);
         }
-        reverse(digits.begin(), digits.end()); // Correct the order of digits
 
+        int n = digits.size();
+        reverse(digits.begin(), digits.end()); // Correct the order of digits
         vector<vector<int>> partitions = getAllPartitions(digits);
-        for (auto& p : partitions) {
+        for (auto p : partitions) {
             int total = 0;
-            for (int num : p) {
-                total += num;
+            for(auto pp : p){
+               total += pp;
             }
-            if (total == x) {
-                return true;
-            }
+            if(total == x) return true;
         }
+        
         return false;
     }
 
     int punishmentNumber(int n) {
         int result = 0;
-        for (int i = 1; i <= n; ++i) {
-            if (solve(i)) {
-                result += i * i;
+        for(int i = 1 ;i <= n;i++){
+            if(solve(i))
+            { 
+                result += i*i;
             }
         }
         return result;
