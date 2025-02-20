@@ -33,7 +33,7 @@ public:
         }
 
         for(auto x : result){
-            cout << x << " ";
+            // cout << x << " ";
             if(NUMS.count(x) == 0)return x;
         }
         return "";
