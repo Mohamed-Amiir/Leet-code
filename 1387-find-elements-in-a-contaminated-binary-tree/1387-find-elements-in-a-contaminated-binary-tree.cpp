@@ -12,9 +12,10 @@
 class FindElements {
 public:
     TreeNode* newTree = new TreeNode(0);
-
+    unordered_set<int> nums;
     void solve(TreeNode* node,int value){
         node->val = value;
+        nums.insert(value);
         if(node->right == nullptr && node->left == nullptr)return;
         if(node->left != nullptr){
             int leftVal = 2 * value + 1;
@@ -34,13 +35,11 @@ public:
     bool search(TreeNode* node,int target){
         if(node == nullptr)return 0;
         if(node->val == target)return true;
-        else {
-            return search(node->right,target) || search(node->left,target);
-        }
+        else return search(node->right,target) || search(node->left,target);
     }
 
     bool find(int target) {
-        return search(newTree,target);
+        return nums.count(target) != 0;
     }
 };
 
