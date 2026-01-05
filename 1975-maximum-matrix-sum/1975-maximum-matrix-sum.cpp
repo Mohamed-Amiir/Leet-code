@@ -13,10 +13,8 @@ public:
                 mini = min(mini, matrix[i][j]);
             }
         }
-        cout << result << "  " << c << "  " << mini ;
-        if (c % 2 == 0)
-            return result;
-        else
-            return ( result - mini ) - mini;
+        if (c % 2 == 1)
+           result -= 2 * mini;
+        return result ;
     }
 };
