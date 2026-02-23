@@ -1,10 +1,9 @@
 class Solution {
 public:
     string convert(string s, int numRows) {
-        if(numRows == 1)return s;
+        if(numRows == 1||s.size()==1)return s;
         int numCols = s.size();
         vector<vector<char>> matrix(numRows, vector<char>(numCols));
-        // char matrix[numRows][numCols];
         int r = 0, c = 0;
         bool flag = true;
         for (char a : s) {
