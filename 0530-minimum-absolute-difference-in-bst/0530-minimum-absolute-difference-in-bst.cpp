@@ -12,27 +12,21 @@
  */
 class Solution {
 public:
-    int result = 1e9;
-    void bfs(TreeNode* root) {
+    int result = 1e9, prev = -1;
+    void inorder(TreeNode* root) {
         if (!root)
             return;
-        queue<TreeNode*> q;
-        q.push(root);
-        while (!q.empty()) {
-            TreeNode* node = q.front();
-            q.pop();
-            if (node->right) {
-                q.push(node->right);
-                result = min(result, abs(node->val - node->right->val));
-            }
-            if (node->left) {
-                q.push(node->left);
-                result = min(result, abs(node->val - node->left->val));
-            }
-        }
+
+        inorder(root->left);
+        cout << root->val << " ";
+        if (prev != -1)
+            result = min(result, abs(root->val- prev));
+        prev = root->val;
+        inorder(root->right);
     }
+
     int getMinimumDifference(TreeNode* root) {
-        bfs(root);
+        inorder(root);
         return result;
     }
 };
