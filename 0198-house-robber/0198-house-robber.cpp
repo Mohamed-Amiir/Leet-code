@@ -5,16 +5,18 @@ public:
         int n = nums.size();
         if(n == 1)return nums[0];
         unordered_map<int,int> dp;
-        dp[0] = nums[0];
-        dp[1] = max(nums[0], nums[1]);
+        int p0 = nums[0];
+        int p1 = max(nums[0], nums[1]);
         for (int i = 2; i < n; i++) {
 
-            int take = nums[i] + dp[i - 2];
+            int take = nums[i] + p0;
 
-            int skip = dp[i - 1];
+            int skip = p1;
 
-            dp[i] = max(take, skip);
+            int current = max(take, skip);
+            p0 = p1;
+            p1 = current;
         }
-        return dp[n-1];
+        return p1;
     }
 };
