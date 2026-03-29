@@ -12,6 +12,7 @@ public:
         if (dp[n - 2] == 0)
             y = climbStairs(n - 2);
         else y = dp[n - 2];
+        dp[n] = x+y;
         return x + y;
     }
 };
