@@ -7,11 +7,11 @@ class Solution:
         for c in moves : 
            if c == 'U': 
               u += 1
-           if c == 'D': 
+           elif c == 'D': 
               d += 1
-           if c == 'R': 
+           elif c == 'R': 
               r += 1
-           if c == 'L': 
+           elif c == 'L': 
               l += 1
         if u == d and l == r :
            return True
