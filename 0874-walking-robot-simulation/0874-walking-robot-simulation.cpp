@@ -6,7 +6,7 @@ string convert(int x, int y) {
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
         unordered_set<string> isObs;
         for (auto o : obstacles) {
-            isObs[convert(o[0], o[1])] = 1;
+            isObs.insert(convert(o[0], o[1]));
         }
         int x = 0, y = 0, result = 0;
         vector<char> dirs = {'N', 'E', 'S', 'W'};
