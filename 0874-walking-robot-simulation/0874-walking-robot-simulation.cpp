@@ -1,15 +1,13 @@
 class Solution {
 public:
-long long convert(int x, int y) {
-    return  (long long)x * 60001 + y;
-}
+    long long convert(int x, int y) { return (long long)x * 60001 + y; }
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
         unordered_set<long long> isObs;
         for (auto o : obstacles) {
             isObs.insert(convert(o[0], o[1]));
         }
         int x = 0, y = 0, result = 0;
-        vector<char> dirs = {'N', 'E', 'S', 'W'};
+        vector<pair<int, int>> dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
         int d = 0;
         for (int c : commands) {
             if (c == -1) {
@@ -21,30 +19,12 @@ long long convert(int x, int y) {
                 if (d == -1)
                     d = 3;
             } else {
-                if (dirs[d] == 'N') {
-                    while (c--) {
-                        if (isObs.count(convert(x, y + 1)))
-                            break;
-                        y++;
-                    }
-                } else if (dirs[d] == 'S') {
-                    while (c--) {
-                        if (isObs.count(convert(x, y - 1)))
-                            break;
-                        y--;
-                    }
-                } else if (dirs[d] == 'E') {
-                    while (c--) {
-                        if (isObs.count(convert(x + 1, y)))
-                            break;
-                        x++;
-                    }
-                } else if (dirs[d] == 'W') {
-                    while (c--) {
-                        if (isObs.count(convert(x - 1, y)))
-                            break;
-                        x--;
-                    }
+                while (c--) {
+                    int nx = dirs[d].first, ny = dirs[d].second;
+                    if (isObs.count(convert(x + nx, y + ny)))
+                        break;
+                    x += nx;
+                    y += ny;
                 }
                 result = max(result, (x * x) + (y * y));
             }
