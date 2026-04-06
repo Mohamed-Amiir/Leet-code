@@ -23,25 +23,25 @@ string convert(int x, int y) {
             } else {
                 if (dirs[d] == 'N') {
                     while (c--) {
-                        if (isObs[convert(x, y + 1)])
+                        if (isObs.count(convert(x, y + 1)))
                             break;
                         y++;
                     }
                 } else if (dirs[d] == 'S') {
                     while (c--) {
-                        if (isObs[convert(x, y - 1)])
+                        if (isObs.count(convert(x, y - 1)))
                             break;
                         y--;
                     }
                 } else if (dirs[d] == 'E') {
                     while (c--) {
-                        if (isObs[convert(x + 1, y)])
+                        if (isObs.count(convert(x + 1, y)))
                             break;
                         x++;
                     }
                 } else if (dirs[d] == 'W') {
                     while (c--) {
-                        if (isObs[convert(x - 1, y)])
+                        if (isObs.count(convert(x - 1, y)))
                             break;
                         x--;
                     }
