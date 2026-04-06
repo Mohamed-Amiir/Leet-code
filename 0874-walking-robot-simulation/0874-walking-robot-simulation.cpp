@@ -4,7 +4,7 @@ string convert(int x, int y) {
     return to_string(x) + "," + to_string(y);
 }
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
-        unordered_map<string, bool> isObs;
+        unordered_set<string> isObs;
         for (auto o : obstacles) {
             isObs[convert(o[0], o[1])] = 1;
         }
