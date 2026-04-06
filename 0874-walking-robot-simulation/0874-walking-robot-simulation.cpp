@@ -1,10 +1,10 @@
 class Solution {
 public:
-string convert(int x, int y) {
-    return to_string(x) + "," + to_string(y);
+long long convert(int x, int y) {
+    return  (long long)x * 60001 + y;
 }
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
-        unordered_set<string> isObs;
+        unordered_set<long long> isObs;
         for (auto o : obstacles) {
             isObs.insert(convert(o[0], o[1]));
         }
