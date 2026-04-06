@@ -1,17 +1,8 @@
 class Solution {
 public:
-    string convert(int x, int y) {
-        string s = "";
-        if (x < 0)
-            s += '-';
-        char c = x + '0';
-        s += c;
-        if (x < 0)
-            s += '-';
-        c = y + '0';
-        s += c;
-        return s;
-    }
+string convert(int x, int y) {
+    return to_string(x) + "," + to_string(y);
+}
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
         unordered_map<string, bool> isObs;
         for (auto o : obstacles) {
@@ -20,12 +11,7 @@ public:
         int x = 0, y = 0, result = 0;
         vector<char> dirs = {'N', 'E', 'S', 'W'};
         int d = 0;
-        int i = 1;
         for (int c : commands) {
-            // cout << "ITERATION: " << i << endl;
-            // i++;
-            // cout << "DIRECTION: " << dirs[d]  << endl;
-            // cout << "FROM: " << x << " , " << y << endl;
             if (c == -1) {
                 d++;
                 if (d == 4)
@@ -60,8 +46,6 @@ public:
                         x--;
                     }
                 }
-                // cout << "TO: " << x << " , " << y << endl;
-
                 result = max(result, (x * x) + (y * y));
             }
         }
