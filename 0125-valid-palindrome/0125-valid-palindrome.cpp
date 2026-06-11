@@ -1,28 +1,21 @@
 class Solution {
 public:
-bool isPalindrome(string s) {
-    // lets go
-    int i = 0, j = s.size() - 1;
-    while (i < j) {
-
-        if (!isalnum(s[i])) {
-            i++;
-            continue;
-        }
-        else
+    bool isPalindrome(string s) {
+        string s2 = ""; 
+        for (int i = 0; i < s.size(); i++) {
             s[i] = tolower(s[i]);
-        if (!isalnum(s[j])) {
-            j--;
-            continue;
+            char c = s[i];
+            if (int(c) >= int('a') && int(c) <= int('z') || (isdigit(c)))
+                s2.push_back(c);
         }
-        else
-            s[j] = tolower(s[j]);
-
-        if (s[i] != s[j])
-            return false;
-        j--;
-        i++;
+        // cout << "AFTER PROCESSING: " << s2 << endl;
+        int l = 0, r = s2.size() - 1;
+        while (l <= r) {
+            if (s2[l] != s2[r])
+                return 0;
+            l++;
+            r--;
+        }
+        return true;
     }
-    return true;
-}
 };
