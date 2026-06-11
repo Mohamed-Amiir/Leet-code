@@ -15,14 +15,12 @@ public:
         int n = s.size();
         string result = "";
         for (int i = 0; i < n; i++) {
+            if(n - i <= result.size())break;
             for (int j = n - 1; j >= i; j--) {
                 if (s[i] == s[j]) {
                     string temp = s.substr(i, j - i + 1);
-                    // cout << "TEMP : " << temp << endl;
                     if (result.size() < temp.size()) {
-
                         if (is_pal(temp)) {
-                            // cout << "IS PAL" << endl;
                             result = temp;
                         }
                     }
