@@ -1,17 +1,26 @@
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        unordered_map<string,vector<string>> mp;
 
-       for(string& str: strs){
-        string tmp = str;
-        sort(str.begin(),str.end());
-        mp[str].push_back(tmp);
-       }
-       vector<vector<string>> result;
-       for(auto x : mp){
-        result.push_back(x.second);
-       }
-       return result;
+        vector<int> signture(26);
+        unordered_map<string, vector<string>> group;
+
+        for (string s : strs) {
+            vector<int> curSign = signture;
+            for (char c : s) {
+                curSign[c - 'a']++;
+            }
+            string strSign = "";
+            for(int x : curSign){
+                strSign += "#" + to_string(x);
+            }
+            group[strSign].push_back(s);
+        }
+        vector<vector<string>> result;
+        for (auto p : group) {
+            result.push_back(p.second);
+        }
+
+        return result;
     }
 };
