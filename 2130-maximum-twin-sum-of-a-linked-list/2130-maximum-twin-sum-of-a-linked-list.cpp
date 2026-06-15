@@ -20,19 +20,17 @@ public:
         }
         vector<int> sums(n / 2);
         temp =  head;
+        int result = 0;
         while (temp != nullptr) {
             if (c < n / 2) {
                 sums[c] = temp->val;
             } else {
                 sums[(n / 2 - mirror)] += temp->val;
+                result = max(result,sums[(n / 2 - mirror)]);
                 mirror++;
             }
             temp = temp->next;
             c++;
-        }
-        int result = 0;
-        for (int x : sums) {
-            result = max(result, x);
         }
         return result;
     }
