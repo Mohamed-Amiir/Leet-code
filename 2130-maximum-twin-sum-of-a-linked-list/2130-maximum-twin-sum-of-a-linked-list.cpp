@@ -25,8 +25,9 @@ public:
             if (c < n / 2) {
                 sums[c] = temp->val;
             } else {
-                sums[(n / 2 - mirror)] += temp->val;
-                result = max(result,sums[(n / 2 - mirror)]);
+                int mirIndex = n / 2 - mirror;
+                sums[mirIndex] += temp->val;
+                result = max(result,sums[mirIndex]);
                 mirror++;
             }
             temp = temp->next;
