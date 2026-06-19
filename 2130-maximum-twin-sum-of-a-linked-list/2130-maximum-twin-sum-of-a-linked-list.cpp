@@ -10,28 +10,35 @@
  */
 class Solution {
 public:
-    int pairSum(ListNode* head) {
-        int c = 0, mirror = 1, n = 0;
+ListNode* rev(ListNode* head) {
+    ListNode* prev = nullptr;
 
-        ListNode* temp = head;
-        while (temp != nullptr) {
+    while (head) {
+        ListNode* nxt = head->next;
+        head->next = prev;
+        prev = head;
+        head = nxt;
+    }
+
+    return prev;
+}
+    int pairSum(ListNode* head) {
+        ListNode *tail = head, *mid = head, *temp;
+        int n = 0, i = 0,result = 0;
+        while (tail) {
+            tail = tail->next;
             n++;
-            temp = temp->next;
         }
-        vector<int> sums(n / 2);
-        temp =  head;
-        int result = 0;
-        while (temp != nullptr) {
-            if (c < n / 2) {
-                sums[c] = temp->val;
-            } else {
-                int mirIndex = n / 2 - mirror;
-                sums[mirIndex] += temp->val;
-                result = max(result,sums[mirIndex]);
-                mirror++;
-            }
-            temp = temp->next;
-            c++;
+        int half = n/2;
+        while (i < half) {
+            mid = mid->next;
+            i++;
+        }
+        ListNode* itr = rev(mid);
+        while(half--){
+            result = max(result, itr->val+head->val);
+            head = head->next;
+            itr = itr->next;
         }
         return result;
     }
