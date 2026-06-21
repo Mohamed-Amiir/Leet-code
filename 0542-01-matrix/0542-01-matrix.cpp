@@ -1,11 +1,10 @@
 class Solution {
 public:
     vector<pair<int, int>> dir = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-
+    
     int bfs(vector<vector<int>>& mat, queue<pair<int, int>>& zeros,
-            vector<vector<int>>& result) {
+            vector<vector<int>>& result,vector<vector<bool>>& visited) {
         int m = mat.size(), n = mat[0].size();
-        vector<vector<bool>> visited(m, vector<bool>(n, false));
 
         int levels = 1;
         while (!zeros.empty()) {
@@ -33,15 +32,16 @@ public:
         int m = mat.size(), n = mat[0].size();
         vector<vector<int>> result(m, vector<int>(n, 0));
         queue<pair<int, int>> zeros;
-
+        vector<vector<bool>> visited(m, vector<bool>(n, false));
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (mat[i][j] == 0) {
                     zeros.push({i, j});
+                    visited[i][j] = 1;
                 }
             }
         }
-        bfs(mat, zeros, result);
+        bfs(mat, zeros, result,visited);
         return result;
     }
 };
