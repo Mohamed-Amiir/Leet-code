@@ -20,9 +20,9 @@ public:
         vector<vector<bool>> visited(m, vector<bool>(n, false));
         vector<vector<int>> hTracker(m, vector<int>(n));
         priority_queue<pair<int, pair<int, int>>> q;
-        q.push({grid[0][0], {0, 0}});
-        visited[0][0] = 1;
         hTracker[0][0] = health - grid[0][0];
+        q.push({hTracker[0][0], {0, 0}});
+        visited[0][0] = 1;
         while (!q.empty()) {
             int s = q.size();
             for (int i = 0; i < s; i++) {
@@ -41,7 +41,7 @@ public:
                 }
             }
         }
-        // display(hTracker);
+        display(hTracker);
         return hTracker[m - 1][n - 1] >= 1;
     }
 
