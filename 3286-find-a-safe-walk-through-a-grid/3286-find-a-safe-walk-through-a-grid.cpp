@@ -14,7 +14,7 @@ public:
     bool checkBorder(int x, int y, int m, int n) {
         return x < m && x >= 0 && y < n && y >= 0;
     }
-    bool dfs(vector<vector<int>>& grid, int health) {
+    bool bfs(vector<vector<int>>& grid, int health) {
         int m = grid.size(), n = grid[0].size();
 
         vector<vector<bool>> visited(m, vector<bool>(n, false));
@@ -43,11 +43,11 @@ public:
                 }
             }
         }
-        display(hTracker);
+        // display(hTracker);
         return hTracker[m - 1][n - 1] >= 1;
     }
 
     bool findSafeWalk(vector<vector<int>>& grid, int health) {
-        return dfs(grid, health);
+        return bfs(grid, health);
     }
 };
