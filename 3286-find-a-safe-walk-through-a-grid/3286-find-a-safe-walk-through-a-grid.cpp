@@ -19,8 +19,7 @@ public:
 
         vector<vector<bool>> visited(m, vector<bool>(n, false));
         vector<vector<int>> hTracker(m, vector<int>(n));
-        priority_queue<pair<int, pair<int, int>>>
-            q;
+        priority_queue<pair<int, pair<int, int>>> q;
         q.push({grid[0][0], {0, 0}});
         visited[0][0] = 1;
         hTracker[0][0] = health - grid[0][0];
@@ -32,7 +31,6 @@ public:
                 for (auto d : dirs) {
                     int nx = d.first + temp.second.first,
                         ny = d.second + temp.second.second;
-
                     if (checkBorder(nx, ny, m, n) && !visited[nx][ny]) {
                         hTracker[nx][ny] =
                             hTracker[temp.second.first][temp.second.second] -
