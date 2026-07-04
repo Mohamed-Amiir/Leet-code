@@ -17,7 +17,7 @@ public:
             for (int i = 0; i < s; i++) {
                 auto temp = q.front();
                 q.pop();
-                vector<pair<int, int>> nighbrs = graph[temp];
+                // vector<pair<int, int>> nighbrs = graph[temp];
                 for (pair<int,int> ni : graph[temp]) {
                     result = min(result, ni.second);
                     if (!visited[ni.first]) {
