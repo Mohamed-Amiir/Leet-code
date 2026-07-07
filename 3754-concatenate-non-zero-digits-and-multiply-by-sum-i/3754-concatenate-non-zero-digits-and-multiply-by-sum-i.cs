@@ -1,12 +1,11 @@
 public class Solution {
     public long SumAndMultiply(int n) {
-        long result = 1;
         long sum = 0;
         long newInt = 0;
-        Stack<int> s = new Stack<int>();
+        Stack<int> s = new();
         while(n > 0){
 
-            var digit = n % 10;
+            int digit = n % 10;
             n = n / 10;
             sum += digit;
             if(digit != 0){
@@ -15,12 +14,11 @@ public class Solution {
         }
 
         while(s.Count > 0){
-            var t = s.Pop();
-            Console.WriteLine(t);
-            newInt = (newInt * 10)+t;
+            int t = s.Pop();
+            newInt = newInt * 10 + t;
         }
-        result = newInt * sum;
-        return result;
+
+        return  newInt * sum;
     }
 }
 
