@@ -1,19 +1,30 @@
 public class Solution {
 
     public void Merge(int[] nums1, int m, int[] nums2, int n) {
-        List<int> l = new();
 
-        for(int i = 0 ; i < m ;i++){
-          l.Add(nums1[i]);
+        int i = 0;int j = 0;
+        List<int> list  = new();
+
+        while(i < m && j < n){ 
+           if(nums1[i] <= nums2[j]){
+            list.Add(nums1[i]);
+            i++;
+           }else{
+             list.Add(nums2[j]);
+             j++;
+           }
         }
-        for(int i = 0; i < n ;i++){
-          l.Add(nums2[i]);
+        while(i < m){
+            list.Add(nums1[i]);
+            i++;
         }
-        l.Sort();
-        int[] arr = l.ToArray();
-        for(int i = 0 ; i < arr.Length;i++){
-            nums1[i] = arr[i];
+        while(j < n){
+            list.Add(nums2[j]);
+            j++;
         }
-        // nums1 = arr;
+        int[] arr = list.ToArray();
+        for(int a = 0 ; a < arr.Length;a++){
+            nums1[a] = arr[a];
+        }
     }
 }
