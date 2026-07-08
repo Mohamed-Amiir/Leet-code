@@ -3,7 +3,7 @@ public class Solution {
     public void Merge(int[] nums1, int m, int[] nums2, int n) {
 
         int i = 0;int j = 0;
-        List<int> list  = new();
+        List<int> list  = new(m+n);
 
         while(i < m && j < n){ 
            if(nums1[i] <= nums2[j]){
@@ -22,9 +22,8 @@ public class Solution {
             list.Add(nums2[j]);
             j++;
         }
-        int[] arr = list.ToArray();
-        for(int a = 0 ; a < arr.Length;a++){
-            nums1[a] = arr[a];
+        for(int a = 0 ; a < list.Count;a++){
+            nums1[a] = list[a];
         }
     }
 }
